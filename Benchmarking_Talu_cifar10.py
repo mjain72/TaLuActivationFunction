@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sat Sep 22 12:35:58 2018
 
-@author: mohit
+
+@author: mohit jain mohitjain72@gmail.com
 """
 """
 Benchmarking Talu with Relu, Elu and Leaku_Relu
