@@ -27,8 +27,8 @@ import keras.activations
 def talu(x): 
     cond = tf.less_equal(x, x*0.0)
     t = tf.tanh(x)
-    tanH = tf.tanh(-0.50)
-    cond1 = tf.less_equal(x, -0.50*(1 - x*0.0))
+    tanH = tf.tanh(-0.05)
+    cond1 = tf.less_equal(x, -0.05*(1 - x*0.0))
     y = tf.where(cond1, tanH*(1 - x*0.0), t)
     return tf.where(cond, y, x)
 
